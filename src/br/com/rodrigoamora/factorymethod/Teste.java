@@ -7,10 +7,10 @@ import java.util.Set;
 public class Teste {
 	//Novidades do Java 9
 	public static void main(String[] args) {
-		List<String> nomes = List.of("primeiroNome", "segundoNome");
+		List<String> nomes = List.of("primeiroNome", "segundoNome", "terceiroNome");
 		System.out.println(nomes);
 		
-		Set.of("terceiroNome");
+		Set.of("quartoNome");
 		Map.of("nome", "João");
 		
 		/*
