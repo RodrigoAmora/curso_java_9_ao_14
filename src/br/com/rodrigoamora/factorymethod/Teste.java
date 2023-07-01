@@ -1,4 +1,4 @@
-package br.com.rodrigoamora.textblock;
+package br.com.rodrigoamora.factorymethod;
 
 import java.util.List;
 import java.util.Map;
