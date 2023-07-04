@@ -1,6 +1,7 @@
 package br.com.rodrigoamora.textblock;
 
 public class Teste {
+	// Novidade do Java 13 - Text Block 
 	public static void main(String[] args) {
 		String texto = "\"Lorem ipsum dolor sit amet, \n" + "consectetur adipiscing elit, sed do eiusmod tempor \n"
 				+ "incididunt ut labore et dolore magna aliqua. \n"
