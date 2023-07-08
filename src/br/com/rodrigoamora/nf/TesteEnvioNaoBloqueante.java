@@ -10,7 +10,7 @@ import br.com.rodrigoamora.wsclient.NotaFiscalWSClient;
 public class TesteEnvioNaoBloqueante {
 
 	public static void main(String[] args) {
-		NotaFiscal primeiraNotaFiscal = new NotaFiscal("Jo�o", 39.99, LocalDate.now());
+		NotaFiscal primeiraNotaFiscal = new NotaFiscal("João", 39.99, LocalDate.now());
 		SubmissionPublisher<NotaFiscal> publisher = new SubmissionPublisher<>();
 		NotaFiscalWSClient nfwsc = new NotaFiscalWSClient();
 		publisher.consume(nfwsc::enviar);
